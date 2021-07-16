@@ -17,7 +17,7 @@ public class StewItem{
 			)
 	)
 	private static int new_size_stew0(int i) {
-		return 16;
+		return 64;
 	}
 	//rabbit
 	@ModifyArg(method = "<clinit>", at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 0),
@@ -27,7 +27,7 @@ public class StewItem{
 			)
 	)
 	private static int new_size_stew1(int i) {
-		return 16;
+		return 64;
 	}
 	//beetroot
 	@ModifyArg(method = "<clinit>", at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 0),
@@ -37,7 +37,7 @@ public class StewItem{
 			)
 	)
 	private static int new_size_stew2(int i) {
-		return 16;
+		return 64;
 	}
 	@ModifyArg(method = "<clinit>", at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 0),
 			slice = @Slice(
@@ -46,6 +46,6 @@ public class StewItem{
 			)
 	)
 	private static int new_size_stew3(int i) {
-		return 16;
+		return 64;
 	}
 }
